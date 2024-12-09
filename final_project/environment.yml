@@ -1,0 +1,12 @@
+name: final_job
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9.2
+  - requests
+  - selenium=4.25.0
+  - pytest
+  - python-chromedriver-binary
+  - pip:
+      - allure-pytest
+      - flake8

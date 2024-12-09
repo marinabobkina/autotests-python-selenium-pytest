@@ -1,0 +1,28 @@
+INFO     root:conftest.py:17 Открытие браузера.
+INFO     root:tests_promocode.py:103 Открытие сайта.
+DEBUG    root:tests_promocode.py:106 Проверка, что открыт нужный сайт.
+INFO     root:tests_promocode.py:109 Добавление товара в корзину.
+DEBUG    root:tests_promocode.py:110 Фокус на одном из товаров в слайдере.
+DEBUG    root:tests_promocode.py:113 Ожидание появления кнопки 'В корзину'.
+DEBUG    root:tests_promocode.py:116 Клик по кнопке 'В корзину'.
+DEBUG    root:tests_promocode.py:119 Проверить, что сумма возле иконки тележки равна стоимости выбранного товара.
+INFO     root:tests_promocode.py:122 Переход на вкладку «Оформление заказа».
+DEBUG    root:tests_promocode.py:123 Клик по вкладке «Оформление заказа».
+DEBUG    root:tests_promocode.py:126 Проверка, что отображается страница «Оформление заказа».
+INFO     root:tests_promocode.py:129 Выполнение авторизации.
+DEBUG    root:tests_promocode.py:130 Клик по по ссылке «Авторизуйтесь».
+DEBUG    root:tests_promocode.py:133 Ввод имени пользователя, использованного ранее при регистрации.
+DEBUG    root:tests_promocode.py:136 Ввод пароля, использованного ранее при регистрации.
+DEBUG    root:tests_promocode.py:139 Кликнуть по чекбоксу «Запомнить меня».
+DEBUG    root:tests_promocode.py:142 Кликнуть по кнопке «Войти».
+INFO     root:tests_promocode.py:145 Переход на вкладку «Оформление заказа».
+DEBUG    root:tests_promocode.py:146 Клик по вкладке «Оформление заказа».
+DEBUG    root:tests_promocode.py:149 Проверка, что отображается страница «Оформление заказа».
+INFO     root:tests_promocode.py:152 Применение НЕ валидного купона «DC120».
+DEBUG    root:tests_promocode.py:153 Клик по ссылке «Нажмите для ввода купона».
+DEBUG    root:tests_promocode.py:156 Ввод в поле применения купона «DC120».
+DEBUG    root:tests_promocode.py:159 Кликнуть по кнопке «Применить купон».
+INFO     root:tests_promocode.py:162 Проверка, что НЕ валидный купон не был принят и скидка не предоставлена.
+DEBUG    root:tests_promocode.py:163 Проверить, что отображается сообщение 'Неверный купон.'
+DEBUG    root:tests_promocode.py:166 Проверить, что общая стоимость заказа равна итоговой сумме заказа.
+INFO     root:conftest.py:26 Браузер закрыт.

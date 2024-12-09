@@ -1,0 +1,18 @@
+class InvalidData:
+
+    INVALID_USER_NAME = "#@%^%#@$@%#$@#.com"
+    INVALID_EMAIL_ADDRESS = "li.com"
+    INVALID_PASSWORD = " "
+
+    INVALID_NAME_1 = "*"
+    INVALID_LAST_NAME_1 = "-"
+    INVALID_ADDRESS_1 = "!"
+    INVALID_CITY_1 = "("
+    INVALID_REGION_1 = ")"
+    INVALID_POSTCODE_1 = "w"
+    INVALID_PHONE_1 = "9920111111188888877777766666555544443333222"
+
+    INVALID_COUPON = "DC120"
+
+    NAME = " "
+    PHONE = " "

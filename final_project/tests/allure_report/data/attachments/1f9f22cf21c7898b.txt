@@ -1,0 +1,23 @@
+INFO     root:conftest.py:17 Открытие браузера.
+INFO     root:tests_promocode.py:174 Открытие сайта.
+DEBUG    root:tests_promocode.py:177 Проверка, что открыт нужный сайт.
+INFO     root:tests_promocode.py:180 Добавление товара в корзину.
+DEBUG    root:tests_promocode.py:181 Фокус на одном из товаров в слайдере.
+DEBUG    root:tests_promocode.py:184 Ожидание появления кнопки 'В корзину'.
+DEBUG    root:tests_promocode.py:187 Клик по кнопке 'В корзину'.
+DEBUG    root:tests_promocode.py:190 Проверить, что сумма возле иконки тележки равна стоимости выбранного товара.
+INFO     root:tests_promocode.py:193 Переход на вкладку «Оформление заказа» для выполнения авторизации.
+DEBUG    root:tests_promocode.py:194 Клик по вкладке «Оформление заказа».
+DEBUG    root:tests_promocode.py:197 Проверка, что отображается страница «Оформление заказа».
+DEBUG    root:tests_promocode.py:200 Клик по по ссылке «Авторизуйтесь».
+DEBUG    root:tests_promocode.py:203 Ввод имени пользователя, использованного ранее при регистрации.
+DEBUG    root:tests_promocode.py:206 Ввод пароля, использованного ранее при регистрации.
+DEBUG    root:tests_promocode.py:209 Кликнуть по кнопке «Войти».
+INFO     root:tests_promocode.py:212 Переход на вкладку «Оформление заказа» для применения купона.
+DEBUG    root:tests_promocode.py:213 Клик по вкладке «Оформление заказа».
+DEBUG    root:tests_promocode.py:216 Проверка, что отображается страница «Оформление заказа».
+DEBUG    root:tests_promocode.py:219 Клик по ссылке «Нажмите для ввода купона».
+DEBUG    root:tests_promocode.py:222 Ввод в поле применения купона «GIVEMEHALYAVA».
+INFO     root:tests_promocode.py:225 Перехват и блокировка запроса на применение купона и подмена ответа сервера ошибкой 500.
+DEBUG    root:tests_promocode.py:226 Перехват и блокировка запроса на применение купона и подмена ответа сервера ошибкой 500.
+INFO     root:conftest.py:26 Браузер закрыт.
